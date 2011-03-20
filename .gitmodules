@@ -46,3 +46,12 @@
 [submodule "scripts/utility/surround.vim"]
 	path = scripts/utility/surround.vim
 	url = http://github.com/vim-scripts/surround.vim.git
+[submodule "scripts/color_scheme/vividchalk.vim"]
+	path = scripts/color_scheme/vividchalk.vim
+	url = http://github.com/vim-scripts/vividchalk.vim.git
+[submodule "scripts/color_scheme/vibrantink"]
+	path = scripts/color_scheme/vibrantink
+	url = http://github.com/vim-scripts/vibrantink.git
+[submodule "scripts/utility/CSApprox"]
+	path = scripts/utility/CSApprox
+	url = http://github.com/vim-scripts/CSApprox.git

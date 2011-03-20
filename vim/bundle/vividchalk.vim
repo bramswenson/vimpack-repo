@@ -1,0 +1,1 @@
+../../scripts/color_scheme/vividchalk.vim
