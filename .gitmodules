@@ -1,0 +1,48 @@
+[submodule "scripts/utility/pathogen.vim"]
+	path = scripts/utility/pathogen.vim
+	url = http://github.com/vim-scripts/pathogen.vim.git
+[submodule "scripts/utility/rails.vim"]
+	path = scripts/utility/rails.vim
+	url = http://github.com/vim-scripts/rails.vim.git
+[submodule "scripts/utility/cucumber.zip"]
+	path = scripts/utility/cucumber.zip
+	url = http://github.com/vim-scripts/cucumber.zip.git
+[submodule "scripts/color_scheme/fruity.vim"]
+	path = scripts/color_scheme/fruity.vim
+	url = http://github.com/vim-scripts/fruity.vim.git
+[submodule "scripts/syntax/haml.zip"]
+	path = scripts/syntax/haml.zip
+	url = http://github.com/vim-scripts/haml.zip.git
+[submodule "scripts/syntax/RDoc"]
+	path = scripts/syntax/RDoc
+	url = http://github.com/vim-scripts/RDoc.git
+[submodule "scripts/utility/fugitive.vim"]
+	path = scripts/utility/fugitive.vim
+	url = http://github.com/vim-scripts/fugitive.vim.git
+[submodule "scripts/utility/ack.vim"]
+	path = scripts/utility/ack.vim
+	url = http://github.com/vim-scripts/ack.vim.git
+[submodule "scripts/utility/Align"]
+	path = scripts/utility/Align
+	url = http://github.com/vim-scripts/Align.git
+[submodule "scripts/utility/SuperTab"]
+	path = scripts/utility/SuperTab
+	url = http://github.com/vim-scripts/SuperTab.git
+[submodule "scripts/utility/ctags.vim"]
+	path = scripts/utility/ctags.vim
+	url = http://github.com/vim-scripts/ctags.vim.git
+[submodule "scripts/utility/Gist.vim"]
+	path = scripts/utility/Gist.vim
+	url = http://github.com/vim-scripts/Gist.vim.git
+[submodule "scripts/utility/ZoomWin"]
+	path = scripts/utility/ZoomWin
+	url = http://github.com/vim-scripts/ZoomWin.git
+[submodule "scripts/syntax/Markdown"]
+	path = scripts/syntax/Markdown
+	url = http://github.com/vim-scripts/Markdown.git
+[submodule "scripts/utility/endwise.vim"]
+	path = scripts/utility/endwise.vim
+	url = http://github.com/vim-scripts/endwise.vim.git
+[submodule "scripts/utility/surround.vim"]
+	path = scripts/utility/surround.vim
+	url = http://github.com/vim-scripts/surround.vim.git
