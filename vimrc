@@ -11,6 +11,7 @@ set autoindent
 set list
 set listchars=tab:▸-,trail:-,eol:¬
 let mapleader = ","
+set mouse-=a
 
 set nocompatible               " use vim defaults
 set scrolloff=3                " keep 3 lines when scrolling
@@ -45,3 +46,5 @@ colorscheme fruity
 map <C-o> :tabnew 
 map <C-k> :tabprev<CR> 
 map <C-j> :tabnext<CR>
+map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
+map - :s/^/#/<CR>:nohlsearch<CR>
