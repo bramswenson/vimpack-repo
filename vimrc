@@ -1,6 +1,6 @@
 " THE NEXT 3 LINES MUST BE FIRST
-filetype off 
-call pathogen#runtime_append_all_bundles() 
+filetype off
+call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
 " ADD YOUR LINES BELOW HERE
 
@@ -9,7 +9,9 @@ set tabstop=2
 set shiftwidth=2
 set autoindent
 set list
-set listchars=tab:▸-,trail:-,eol:¬
+" trail here seems to interfere with it having red bg, which i perfer
+" set listchars=tab:▸-,trail:-,eol:¬
+set listchars=tab:▸-,eol:¬
 let mapleader = ","
 set mouse-=a
 
@@ -28,13 +30,13 @@ set showmatch                  " jump to matches when entering regexp
 set ignorecase                 " ignore case when searching
 set smartcase                  " no ignorecase if Uppercase char present
 
-"set visualbell t_vb=           " turn off error beep/flash
-"set novisualbell               " turn off visual bell
+set visualbell t_vb=           " turn off error beep/flash
+set novisualbell               " turn off visual bell
 
 set backspace=indent,eol,start " make that backspace key work the way it should
 
-"syntax on                      " turn syntax highlighting on by default
-"filetype on                    " detect type of file
+syntax on                      " turn syntax highlighting on by default
+filetype on                    " detect type of file
 
 set background=dark
 
@@ -43,7 +45,12 @@ set t_Co=256                   " set colors to 256
 "colorscheme vibrantink
 colorscheme fruity
 
-map <C-o> :tabnew 
+" Show trailing whitepace and spaces before a tab:
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+
+"keybindings
+map <C-o> :tabnew
 map <C-k> :tabprev<CR> 
 map <C-j> :tabnext<CR>
 map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
