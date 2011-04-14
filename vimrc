@@ -45,13 +45,19 @@ set t_Co=256                   " set colors to 256
 "colorscheme vibrantink
 colorscheme fruity
 
+" Set the font and size for gvim
+set guifont=Monaco\ 11
+
 " Show trailing whitepace and spaces before a tab:
-:highlight ExtraWhitespace ctermbg=red guibg=red
-:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+" Autoremove trailing whitespace on write (kinda dangerous)
+autocmd BufWritePre * :%s/\s\+$//e
 
 "keybindings
 map <C-o> :tabnew
-map <C-k> :tabprev<CR> 
+map <C-k> :tabprev<CR>
 map <C-j> :tabnext<CR>
+map <C-n> :NERDTree<CR>
 map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
 map - :s/^/#/<CR>:nohlsearch<CR>

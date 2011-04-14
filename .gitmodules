@@ -55,3 +55,6 @@
 [submodule "scripts/utility/CSApprox"]
 	path = scripts/utility/CSApprox
 	url = http://github.com/vim-scripts/CSApprox.git
+[submodule "scripts/utility/The-NERD-tree"]
+	path = scripts/utility/The-NERD-tree
+	url = http://github.com/vim-scripts/The-NERD-tree.git
