@@ -61,3 +61,9 @@
 [submodule "scripts/syntax/JavaScript-syntax"]
 	path = scripts/syntax/JavaScript-syntax
 	url = https://github.com/vim-scripts/JavaScript-syntax
+[submodule "scripts/utility/gitv"]
+	path = scripts/utility/gitv
+	url = https://github.com/vim-scripts/gitv
+[submodule "scripts/utility/extradite.vim"]
+	path = scripts/utility/extradite.vim
+	url = https://github.com/vim-scripts/extradite.vim
