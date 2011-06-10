@@ -43,7 +43,8 @@ set background=dark
 set t_Co=256                   " set colors to 256
 "colorscheme vividchalk
 "colorscheme vibrantink
-colorscheme fruity
+"colorscheme fruity
+colorscheme Solarized
 
 " Set the font and size for gvim
 set guifont=Monaco\ 11

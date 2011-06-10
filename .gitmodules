@@ -67,3 +67,6 @@
 [submodule "scripts/utility/extradite.vim"]
 	path = scripts/utility/extradite.vim
 	url = https://github.com/vim-scripts/extradite.vim
+[submodule "scripts/color_scheme/Solarized"]
+	path = scripts/color_scheme/Solarized
+	url = https://github.com/vim-scripts/Solarized
