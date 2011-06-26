@@ -76,3 +76,6 @@
 [submodule "scripts/utility/DrawIt"]
 	path = scripts/utility/DrawIt
 	url = https://github.com/vim-scripts/DrawIt
+[submodule "scripts/utility/preview.vim"]
+	path = scripts/utility/preview.vim
+	url = https://github.com/vim-scripts/preview.vim
