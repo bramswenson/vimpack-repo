@@ -79,3 +79,9 @@
 [submodule "scripts/utility/preview.vim"]
 	path = scripts/utility/preview.vim
 	url = https://github.com/vim-scripts/preview.vim
+[submodule "scripts/utility/jsonvim"]
+	path = scripts/utility/jsonvim
+	url = https://github.com/vim-scripts/jsonvim
+[submodule "scripts/syntax/JSON.vim"]
+	path = scripts/syntax/JSON.vim
+	url = https://github.com/vim-scripts/JSON.vim

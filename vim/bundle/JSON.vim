@@ -1,0 +1,1 @@
+../../scripts/syntax/JSON.vim

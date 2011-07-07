@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/bram.swenson/.byobu'
 let g:netrw_dirhist_2='/Users/bram.swenson/Projects/akqa/audi_ims/app/models'
 let g:netrw_dirhist_3='/Users/bram.swenson/Projects/akqa/audi_ims/tmp/recipes/cookbooks'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/Users/bram.swenson/Projects/akqa/audi_labs/vendor.orig/p
 let g:netrw_dirhist_5='/Users/bram.swenson/Projects/akqa/audi_features_specs/deploy'
 let g:netrw_dirhist_6='/Users/bram.swenson/Projects/akqa/audi_ims/deploy'
 let g:netrw_dirhist_7='/Users/bram.swenson/Projects/akqa/telemetron/db/samples/trips'
+let g:netrw_dirhist_8='/Users/bram.swenson/Projects/bramswenson/feedzirra/lib/feedzirra'
+let g:netrw_dirhist_9='/Users/bram.swenson/Projects/akqa/chef-repo/.chef/bootstrap'

@@ -11,7 +11,9 @@ set autoindent
 set list
 " trail here seems to interfere with it having red bg, which i perfer
 " set listchars=tab:▸-,trail:-,eol:¬
-set listchars=tab:▸-,eol:¬
+" these interfere with copy and paste from vim to other apps, yuk!
+" set listchars=tab:▸-,eol:¬
+set listchars=
 let mapleader = ","
 set mouse-=a
 
