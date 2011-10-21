@@ -85,3 +85,6 @@
 [submodule "scripts/syntax/JSON.vim"]
 	path = scripts/syntax/JSON.vim
 	url = https://github.com/vim-scripts/JSON.vim
+[submodule "scripts/utility/Vimerl"]
+	path = scripts/utility/Vimerl
+	url = https://github.com/vim-scripts/Vimerl

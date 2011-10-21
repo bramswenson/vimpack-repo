@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =3
 let g:netrw_dirhist_1='/Users/bram.swenson/Projects/bramswenson/stackspin/config/initializers'
 let g:netrw_dirhist_2='/Users/bram.swenson/Projects/bramswenson/stackspin/spec/javascripts/helpers'
+let g:netrw_dirhist_3='/home/shadowshell/Source/AKQASF/audi_features_specs/app/controllers/carlines'
