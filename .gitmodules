@@ -88,3 +88,6 @@
 [submodule "scripts/utility/Vimerl"]
 	path = scripts/utility/Vimerl
 	url = https://github.com/vim-scripts/Vimerl
+[submodule "scripts/syntax/jade.vim"]
+	path = scripts/syntax/jade.vim
+	url = https://github.com/vim-scripts/jade.vim
