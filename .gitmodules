@@ -91,3 +91,6 @@
 [submodule "scripts/syntax/jade.vim"]
 	path = scripts/syntax/jade.vim
 	url = https://github.com/vim-scripts/jade.vim
+[submodule "scripts/utility/Tabular"]
+	path = scripts/utility/Tabular
+	url = https://github.com/vim-scripts/Tabular
