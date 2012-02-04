@@ -94,3 +94,6 @@
 [submodule "scripts/utility/Tabular"]
 	path = scripts/utility/Tabular
 	url = https://github.com/vim-scripts/Tabular
+[submodule "scripts/syntax/Puppet-Syntax-Highlighting"]
+	path = scripts/syntax/Puppet-Syntax-Highlighting
+	url = git://github.com/vim-scripts/Puppet-Syntax-Highlighting.git

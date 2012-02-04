@@ -57,6 +57,11 @@ autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 " Autoremove trailing whitespace on write (kinda dangerous)
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Filetypes
+au BufNewFile,BufRead Vagrantfile,Vagrantfile.* setf ruby
+au BufNewFile,BufRead Guardfile setf ruby
+"au BufNewFile,BufRead *.pp setf ruby
+
 "keybindings
 map <C-o> :tabnew
 map <C-k> :tabprev<CR>
