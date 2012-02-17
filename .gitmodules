@@ -97,3 +97,6 @@
 [submodule "scripts/syntax/Puppet-Syntax-Highlighting"]
 	path = scripts/syntax/Puppet-Syntax-Highlighting
 	url = git://github.com/vim-scripts/Puppet-Syntax-Highlighting.git
+[submodule "scripts/utility/ctrlp.vim"]
+	path = scripts/utility/ctrlp.vim
+	url = https://github.com/vim-scripts/ctrlp.vim.git

@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/bram.swenson/Projects/bramswenson/stackspin/config/initializers'
 let g:netrw_dirhist_2='/Users/bram.swenson/Projects/bramswenson/stackspin/spec/javascripts/helpers'
 let g:netrw_dirhist_3='/home/shadowshell/Source/AKQASF/audi_features_specs/app/controllers/carlines'
 let g:netrw_dirhist_4='/home/shadowshell/Source/bramswenson/imagine/plugins/imagine-test-view/lib'
 let g:netrw_dirhist_5='/home/shadowshell/Source/AKQASF/audi_api/lib/audi/api/services'
 let g:netrw_dirhist_6='/home/shadowshell/Source/AKQASF/audi_api/lib/jobs'
+let g:netrw_dirhist_7='/Users/bswenson/Projects/kabam/doa/castle/vagrant/puppet/kabam_upstream/doadev'
+let g:netrw_dirhist_8='/Users/bswenson/Projects/kabam/doa/castle/vagrant'
