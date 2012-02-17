@@ -70,3 +70,6 @@ map <C-j> :tabnext<CR>
 map <C-n> :NERDTree<CR>
 map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
 map - :s/^/#/<CR>:nohlsearch<CR>
+
+" CtrlP Settings
+let g:ctrlp_by_filename = 1
