@@ -72,4 +72,6 @@ map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
 map - :s/^/#/<CR>:nohlsearch<CR>
 
 " CtrlP Settings
-let g:ctrlp_by_filename = 1
+set wildignore+=*/.git/*,*/vendor/*,*/\.bundle/*
+let g:ctrlp_open_new_file = 't'
+let g:ctrlp_open_multi = '1t'
