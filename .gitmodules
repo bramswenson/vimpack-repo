@@ -52,9 +52,6 @@
 [submodule "scripts/color_scheme/vibrantink"]
 	path = scripts/color_scheme/vibrantink
 	url = http://github.com/vim-scripts/vibrantink.git
-[submodule "scripts/utility/CSApprox"]
-	path = scripts/utility/CSApprox
-	url = http://github.com/vim-scripts/CSApprox.git
 [submodule "scripts/utility/The-NERD-tree"]
 	path = scripts/utility/The-NERD-tree
 	url = http://github.com/vim-scripts/The-NERD-tree.git
@@ -69,7 +66,7 @@
 	url = https://github.com/vim-scripts/extradite.vim
 [submodule "scripts/color_scheme/Solarized"]
 	path = scripts/color_scheme/Solarized
-	url = https://github.com/vim-scripts/Solarized
+	url = https://github.com/vim-scripts/Solarized.git
 [submodule "scripts/utility/vim-coffee-script"]
 	path = scripts/utility/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script

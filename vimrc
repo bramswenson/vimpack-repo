@@ -43,11 +43,11 @@ filetype on                    " detect type of file
 
 set background=dark
 
-set t_Co=256                   " set colors to 256
+"set t_Co=256                   " set colors to 256
 "colorscheme vividchalk
 "colorscheme vibrantink
-colorscheme fruity
-"colorscheme Solarized
+"colorscheme fruity
+colorscheme solarized
 
 " Set the font and size for gvim
 set guifont=Monaco\ 11
@@ -58,15 +58,10 @@ autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
 " Autoremove trailing whitespace on write (kinda dangerous)
 autocmd BufWritePre * :%s/\s\+$//e
 
-" Filetypes
-au BufNewFile,BufRead Vagrantfile,Vagrantfile.* setf ruby
-au BufNewFile,BufRead Guardfile setf ruby
-"au BufNewFile,BufRead *.pp setf ruby
-
 "keybindings
-map <C-o> :tabnew
-map <C-k> :tabprev<CR>
-map <C-j> :tabnext<CR>
+map <C-o> :tabnew<space>
+map <C-h> :tabprev<CR>
+map <C-l> :tabnext<CR>
 map <C-n> :NERDTree<CR>
 map _ :s/^\/\/\\|^--\\|^> \\|^[#"%!;]//<CR>:nohlsearch<CR>
 map - :s/^/#/<CR>:nohlsearch<CR>
@@ -75,3 +70,11 @@ map - :s/^/#/<CR>:nohlsearch<CR>
 set wildignore+=*/.git/*,*/vendor/bundle/*,*/\.bundle/*
 let g:ctrlp_open_new_file = 't'
 let g:ctrlp_open_multi = '1t'
+
+" Filetypes
+au BufNewFile,BufRead Vagrantfile,Vagrantfile.* setf ruby
+au BufNewFile,BufRead Guardfile setf ruby
+autocmd BufNewFile,BufReadPost *.slim set filetype=jade
+autocmd BufNewFile,BufReadPost *.jade set filetype=jade
+autocmd FileType jade set tabstop=2|set shiftwidth=2|set expandtab
+
