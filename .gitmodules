@@ -31,9 +31,6 @@
 [submodule "scripts/utility/ctags.vim"]
 	path = scripts/utility/ctags.vim
 	url = http://github.com/vim-scripts/ctags.vim.git
-[submodule "scripts/utility/Gist.vim"]
-	path = scripts/utility/Gist.vim
-	url = git://github.com/mattn/gist-vim.git
 [submodule "scripts/utility/ZoomWin"]
 	path = scripts/utility/ZoomWin
 	url = http://github.com/vim-scripts/ZoomWin.git
