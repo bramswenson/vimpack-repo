@@ -94,3 +94,9 @@
 [submodule "scripts/utility/ctrlp.vim"]
 	path = scripts/utility/ctrlp.vim
 	url = https://github.com/vim-scripts/ctrlp.vim.git
+[submodule "scripts/utility/webapi-vim"]
+	path = scripts/utility/webapi-vim
+	url = git://github.com/mattn/webapi-vim.git
+[submodule "scripts/utility/gist-vim"]
+	path = scripts/utility/gist-vim
+	url = git://github.com/mattn/gist-vim.git
