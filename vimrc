@@ -45,8 +45,8 @@ set background=dark
 
 "set t_Co=256                   " set colors to 256
 "colorscheme vividchalk
-colorscheme vibrantink
-"colorscheme fruity
+"colorscheme vibrantink
+colorscheme fruity
 "colorscheme solarized
 
 " Set the font and size for gvim
@@ -72,9 +72,14 @@ let g:ctrlp_open_new_file = 't'
 let g:ctrlp_open_multi = '1t'
 
 " Filetypes
-au BufNewFile,BufRead Vagrantfile,Vagrantfile.* setf ruby
-au BufNewFile,BufRead Guardfile setf ruby
+autocmd BufNewFile,BufReadPost *.eco,*.js.eco set filetype=eruby
+autocmd BufNewFile,BufRead Vagrantfile,Vagrantfile.* set filetype=ruby
+autocmd BufNewFile,BufRead Guardfile set filetype=ruby
 autocmd BufNewFile,BufReadPost *.slim set filetype=jade
 autocmd BufNewFile,BufReadPost *.jade set filetype=jade
 autocmd FileType jade set tabstop=2|set shiftwidth=2|set expandtab
+" autocmd BufNewFile,BufReadPost *.rabl set filetype=ruby
+" autocmd BufRead,BufNewFile *.rabl syn keyword rubyRabl node attribute object child collection attributes glue extends
+" autocmd BufRead,BufNewFile *.rabl hi def link rubyRabl Function
+" autocmd BufNewFile,BufReadPost *.thor set filetype=ruby
 
