@@ -33,7 +33,7 @@
 	url = http://github.com/vim-scripts/ctags.vim.git
 [submodule "scripts/utility/Gist.vim"]
 	path = scripts/utility/Gist.vim
-	url = http://github.com/vim-scripts/Gist.vim.git
+	url = git://github.com/mattn/gist-vim.git
 [submodule "scripts/utility/ZoomWin"]
 	path = scripts/utility/ZoomWin
 	url = http://github.com/vim-scripts/ZoomWin.git
@@ -97,3 +97,6 @@
 [submodule "scripts/utility/ctrlp.vim"]
 	path = scripts/utility/ctrlp.vim
 	url = https://github.com/vim-scripts/ctrlp.vim.git
+[submodule "scripts/utility/WebAPI.vim"]
+	path = scripts/utility/WebAPI.vim
+	url = https://github.com/vim-scripts/WebAPI.vim.git
