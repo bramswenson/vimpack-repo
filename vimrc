@@ -72,6 +72,7 @@ let g:ctrlp_open_new_file = 't'
 let g:ctrlp_open_multi = '1t'
 
 " Filetypes
+autocmd BufNewFile,BufReadPost *.handlebars,*.hbs set filetype=handlebars
 autocmd BufNewFile,BufReadPost *.eco,*.js.eco set filetype=eruby
 autocmd BufNewFile,BufRead Vagrantfile,Vagrantfile.* set filetype=ruby
 autocmd BufNewFile,BufRead Guardfile set filetype=ruby
