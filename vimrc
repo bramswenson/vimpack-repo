@@ -81,5 +81,10 @@ autocmd FileType jade set tabstop=2|set shiftwidth=2|set expandtab
 " autocmd BufNewFile,BufReadPost *.rabl set filetype=ruby
 " autocmd BufRead,BufNewFile *.rabl syn keyword rubyRabl node attribute object child collection attributes glue extends
 " autocmd BufRead,BufNewFile *.rabl hi def link rubyRabl Function
-" autocmd BufNewFile,BufReadPost *.thor set filetype=ruby
+autocmd BufNewFile,BufReadPost *.thor set filetype=ruby
 
+" gist-vim
+let g:gist_use_password_in_gitconfig = 1
+let g:gist_show_privates = 1
+let g:gist_post_private = 1
+let g:gist_get_multiplefile = 1
